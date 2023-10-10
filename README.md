@@ -4,7 +4,15 @@ Welcome to the Lepidoptera Classifier project! This repository contains code for
 
 ## Overview
 
-- **Objective**: The main goal of this project is to create a classifier capable of distinguishing between various species within the Lepidoptera order.
+The main goal of this project is to create a classifier capable of distinguishing between various species within the Lepidoptera order.
+
+## Accuracy
+
+I got to an accuracy of 97.2%
+
+## To be improved
+
+Maybe deploy the model in the future
 
 ## Pretrained Model:
 - I used the ResNet50 architecture with pretrained weights from 'imagenet'. I had to modify the output layer to the number of classes I have, the 100 species of butterflies & moths. 
